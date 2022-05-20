@@ -1,0 +1,99 @@
+/* No CSS podemos comentar assim */
+
+/* Anotações para lembrar:
+ *
+ * Para estilizar o site inteiro, faça *{}, em que '*' significa tudo */
+
+/*Estilos da página index.html*/
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+ nav{
+    margin: 0%; /* Distância fora da estrutura do código, de um conteúdo pra outro */
+    padding: 30px; /* Distância dentro da estrutura do código, de uma tag da outra */
+    background-color: burlywood;
+}
+ #menu li a{
+    color: beige;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: gray;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+border-radius: 20%;
+}
+
+/*.wh-300{
+width: 500px ;
+height: 500px;
+}*/
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/*Esilos da página de contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+/* Configurando o título */
+h1{
+    color: goldenrod;
+    margin: 0%;
+}
+
+/* Configurando o texto */
+.text{
+    color: rgb(255, 115, 0);
+    font-size: 14;
+}
+
+/* Configurando o id do primeiro teste apenas.
+ * Boas práticas é usar o 'id' apenas uma vez, já que geralmente vão
+ * achar que é só em um lugar que você está mudando. 
+ * Geralmente usamos 'classes' ao invés de 'id' */
+#idteste{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* list-style 'none' tira as configurações padrão, tirando as bolinhas */
+
+/*ul{
+    display: flex;
+    
+    list-style: none;
+}*/
