@@ -1,0 +1,18 @@
+
+.corMenu {
+    background: #f7f6f5;
+    background: -webkit-linear-gradient(to right, #ffffff, #8ee7f7, #61dff0);
+    background: linear-gradient(to right, #ffffff, #8ee7f7, #4bc7b2);
+}
+
+.corJT {
+    background: #f7f6f5;
+    background: -webkit-linear-gradient(to right, #8ee7f7, #61dff0, #ffffff);
+    background: linear-gradient(to right, #ffffff, #8ee7f7, #61dff0, #93ffff,#ffffff);
+}
+
+.imgLogo {
+    width: 40px;
+    margin-left: 5%;
+    justify-content: inherit;
+}
